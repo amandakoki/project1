@@ -1,5 +1,5 @@
 body{
-    margin 0;
+    margin : 0;
 }
 *{
     box-sizing: border-box;
@@ -7,4 +7,96 @@ body{
 .toplink{
     background-color: cadetblue;
     overflow: hidden;
+}
+
+.toplink a{
+    color: azure;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+    text-align: left;
+}
+
+.toplink a:hover{
+    color: rgb(17, 17, 17);
+    overflow: hidden;
+}
+
+.toplink a{
+    color: bisque;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+    text-align: left;
+}
+
+.toplink-right{
+    float: right;
+}
+
+.banner{
+    background-color: rgb(83, 81, 78);
+    padding: 20px;
+    text-align: center;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content{
+    float: left;
+    width: 70%;
+    padding: 15px;
+}
+
+.side_bar{
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+h2{
+    text-align: left;
+    color:rgb(17, 194, 120);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+}
+
+td{
+    border: 1px solid #373737;
+    padding: 5px;
+    text-align: left;
+}
+th{
+
+}
+
+
+
+.registration_form label{
+    font-size: 1.8em;
+}
+
+input[type=text], [type=email], textarea {
+    width: 60%;
+    padding: 12px 20px;
+    font-size: 1.6em;
+    border-radius: 4px;
+    border: 2px solid #424242;
+}
+
+input[type=submit]{
+    width:40%;
+    padding: ;
+    font-size: ;
+    border-radius:4px ;
+    background-color: azure;
+    color: rgb(61, 119, 169);
 }
