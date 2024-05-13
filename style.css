@@ -1,5 +1,6 @@
 body{
     margin : 0;
+    background-color: cadetblue;
 }
 *{
     box-sizing: border-box;
@@ -98,5 +99,12 @@ input[type=submit]{
     border-radius:4px ;
     background-color: azure;
     color: rgb(61, 119, 169);
+}
+
+.footer{
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+    color: #373737;
 }
 
