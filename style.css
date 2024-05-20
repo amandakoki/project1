@@ -1,12 +1,12 @@
 body{
     margin : 0;
-    background-color: cadetblue;
+    background-color: #588157;
 }
 *{
     box-sizing: border-box;
 }
 .toplink{
-    background-color: cadetblue;
+    background-color: #588157;
     overflow: hidden;
 }
 
@@ -102,7 +102,7 @@ input[type=submit]{
 }
 
 .footer{
-    background-color: cadetblue;
+    background-color: #588157;
     padding: 20px;
     text-align: center;
     color: #373737;
