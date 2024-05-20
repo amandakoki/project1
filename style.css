@@ -25,7 +25,7 @@ body{
 }
 
 .toplink a{
-    color: bisque;
+    color: #dad7cd;
     text-decoration: none;
     padding: 14px 16px;
     display: block;
@@ -38,7 +38,7 @@ body{
 }
 
 .banner{
-    background-color: rgb(83, 81, 78);
+    background-color: #3a5a40;
     padding: 20px;
     text-align: center;
 }
