@@ -18,16 +18,17 @@ print "5475"; //This is a string
 
 print "<br>"; //Using HTML's <br> to break a line
 
-print date('1'); //Displaying the current day of the week
+print date('l'); //Displaying the current day of the week
+//This is letter l and not the number 1(one)
 
 print "<br>"; //Using HTML's <br> to break a line
 
-print date('1, F jS Y', strtotime('+5 months'));
+print date('l, F jS Y', strtotime('+5 months'));
 
 print "<br>"; //Using HTML's <br> to break a line
 
 
-print date('1, F jS Y H:i:s');
+print date('l, F jS Y H:i:s');
 
 //Creating (Declaring) a variable
 
@@ -37,7 +38,7 @@ $yob  = 2004; //Declaration of a digit or an integer
 
 print "<br>"; //Using HTML's <br> to break a line
 
-$current_year = date(Y);
+$current_year = date('Y');
 
 echo $current_year;
 
@@ -45,7 +46,7 @@ print "<br>"; //Using HTML's <br> to break a line
 
 $age = $current_year - $yob; //Using subtraction to find the age
 
-print $fname . "is " . $age . " years old.";
+print $fname . " is " . $age . " years old.";
 
 print "<br>"; //Using HTML's <br> to break a line
 
@@ -86,5 +87,31 @@ if($interval->y > $adult_age){
     //executed if the condition is false
 }
 
+print "<br>"; //Using HTML's <br> to break a line
 
+//Variable Characteristics 
+
+$last_name = "Mbatha";
+
+echo "My last name is $last_name";
+
+print "<br>"; //Using HTML's <br> to break a line
+
+echo 'My last name is $last_name';
+
+print "<br>"; //Using HTML's <br> to break a line
+
+
+echo "Today is " . date('1');
+
+print "<br>"; //Using HTML's <br> to break a line
+
+$call['lname'] = "Mbatha";
+print $call['lname'];
+
+print "<br>"; //Using HTML's <br> to break a line
+define('LNAME', 'Mbatha');
+echo LNAME;
 ?>
+<br>
+<br>
