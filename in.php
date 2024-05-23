@@ -70,7 +70,7 @@ echo '</pre>';
 
 print "<br>"; //Using HTML's <br> to break a line
 
-print $fname . " is actually, " . $interval->y . "year " . 
+print $fname . " is actually, " . $interval->y . "years " . 
 $interval->m . " months, and " . $interval->d . "days old.";
 
 //The if...else ... statement
@@ -80,10 +80,10 @@ print "<br>"; //Using HTML's <br> to break a line
 $adult_age = 18;
 
 if($interval->y > $adult_age){
-    print $fname . "is an adult"; //event in blcok to be 
+    print $fname . " is an adult"; //event in blcok to be 
     //executed in the condition is true
 }else{
-    print $fname . "is NOT an adult"; //event in block to be 
+    print $fname . " is NOT an adult"; //event in block to be 
     //executed if the condition is false
 }
 
@@ -102,7 +102,7 @@ echo 'My last name is $last_name';
 print "<br>"; //Using HTML's <br> to break a line
 
 
-echo "Today is " . date('1');
+echo "Today is " . date('l');
 
 print "<br>"; //Using HTML's <br> to break a line
 
