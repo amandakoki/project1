@@ -29,4 +29,25 @@ print "<br>"; //Using HTML's <br> to break a line
 
 print date('1, F jS Y H:i:s');
 
+//Creating (Declaring) a variable
+
+$fname = "Amanda Koki"; //Declaration of a variable or a string or a group of words
+
+$yob  = 2004; //Declaration of a digit or an integer
+
+print "<br>"; //Using HTML's <br> to break a line
+
+$current_year = date(Y);
+
+echo $current_year;
+
+print "<br>"; //Using HTML's <br> to break a line
+
+$age = $current_year - $yob;
+
+print $fname . "is " . $age . " years old.";
+
+
+print "<br>"; //Using HTML's <br> to break a line
+
 ?>
