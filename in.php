@@ -44,7 +44,7 @@ print "<br>"; //Using HTML's <br> to break a line
 
 $user_dob = "$yob-07-26";
 
-echo $fnane . " was born in " . $yob;
+echo $fname . " was born in " . $yob;
 
 print "<br>"; //Using HTML's <br> to break a line
 
