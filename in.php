@@ -59,7 +59,6 @@ print 45 + 69;
 print "<br>"; //Using HTML's <br> to break a line
 
 $birthday = new DateTime($user_dob);
-
 $today = new DateTime('today');
 
 $interval = $birthday ->diff($today);
