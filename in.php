@@ -78,7 +78,6 @@ $interval->m . " months, and " . $interval->d . "days old.";
 print "<br>"; //Using HTML's <br> to break a line
 
 $adult_age = 18;
-
 if($interval->y > $adult_age){
     print $fname . " is an adult"; //event in blcok to be 
     //executed in the condition is true
@@ -97,7 +96,7 @@ echo "My last name is $last_name";
 
 print "<br>"; //Using HTML's <br> to break a line
 
-echo 'My last name is $last_name';
+echo 'My last name is' . $last_name;
 
 print "<br>"; //Using HTML's <br> to break a line
 
@@ -115,3 +114,4 @@ echo LNAME;
 ?>
 <br>
 <br>
+
