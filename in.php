@@ -38,6 +38,10 @@ $yob  = 2004; //Declaration of a digit or an integer
 
 print "<br>"; //Using HTML's <br> to break a line
 
+echo $fname. "was actually born on " . date('l, F jS Y', strtotime($user_dob));
+
+print "<br>";//Using HTML's <br> to break a line
+
 $current_year = date('Y');
 
 echo $current_year;
