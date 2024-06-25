@@ -1,6 +1,6 @@
 
 <div class="toplink">
-            <a href="./index.html">Home</a>
+            <a href="./index.php">Home</a>
             <a href="news.html">News</a>
             <a href="about_us.html">About Us</a>
             <a href="contact_us.html">Contact Us</a>
