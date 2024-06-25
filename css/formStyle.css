@@ -1,0 +1,21 @@
+
+.registration_form label{
+    font-size:medium;
+}
+
+input[type=text], [type=email], textarea {
+    width: 60%;
+    padding: 12px 20px;
+    font-size:small;
+    border-radius: 4px;
+    border: 2px solid #424242;
+}
+
+input[type=submit]{
+    width:40%;
+    padding: 12px 20px ;
+    font-size:small;
+    border-radius:4px ;
+    background-color: azure;
+    color: rgb(61, 119, 169);
+}
