@@ -13,10 +13,6 @@
     text-align: left;
 }
 
-.toplink a:hover{
-    color: rgb(17, 17, 17);
-    overflow: hidden;
-}
 
 .toplink a{
     color: #dad7cd;
@@ -25,6 +21,11 @@
     display: block;
     float: left;
     text-align: left;
+}
+.toplink a:hover{
+    color: rgb(17, 17, 17);
+    overflow: hidden;
+    text-decoration: none;
 }
 
 .toplink-right{
