@@ -2,7 +2,7 @@
 <div class="toplink">
             <a href="./index.php">Home</a>
             <a href="news.php">News</a>
-            <a href="about_us.html">About Us</a>
+            <a href="about_us.php">About Us</a>
             <a href="contact_us.html">Contact Us</a>
             <a href="my_books.html">My Books</a>
 
