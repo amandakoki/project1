@@ -1,3 +1,4 @@
+<?php include_once ("templates/heading.php"); ?>
 
 <?php include_once ("templates/nav.php"); ?>
 
