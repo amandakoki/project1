@@ -7,7 +7,7 @@
             <a href="my_books.php">My Books</a>
 
             <div class="toplink-right">
-            <a href="signup.html">Sign up</a>
+            <a href="signup.php">Sign up</a>
             <a href="login.html">Log in</a>
             </div>
         </div>
