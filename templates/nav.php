@@ -8,7 +8,7 @@
 
             <div class="toplink-right">
             <a href="signup.php">Sign up</a>
-            <a href="login.html">Log in</a>
+            <a href="login.php">Log in</a>
             </div>
         </div>
         
