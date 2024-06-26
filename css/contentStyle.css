@@ -13,9 +13,9 @@
 
 h2{
     text-align: left;
-    color:rgb(17, 194, 120);
+    color:rgb(0, 0, 0);
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform:capitalize;
     font-style: normal;
     font-weight: bold;
 }

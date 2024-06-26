@@ -37,6 +37,12 @@
             </ul>
         </div>
     </div>
+
+    <h1>FAQs</h1>
+    <h2>Where are you located?</h2>
+    <p>The Rkive has branches in Kenya, Korea, Japan, France and Germany. We are currently in the process of putting up 
+        more branches of our library in China and Italy. Members will be notified upon their completion.
+    </p>
     <div class="footer">
         Copyright BBIT 2.1A &copy; All rights reserved
     </div>
