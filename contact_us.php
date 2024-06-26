@@ -11,9 +11,7 @@
     0113201351 or <br>
     amanda.mbatha@strahmore.edu</p>
 
-    <div class="footer">
-        Copyright BBIT 2.1A &copy; All rights reserved
-    </div>
+    <?php include_once("templates/footer.php"); ?>
     <br><br>
 </body>
 </html>

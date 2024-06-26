@@ -68,9 +68,6 @@
 
     </form>
 
-    <div class="footer">
-        <br> <br>
-        Copyright BBIT 2.1A &copy; All rights reserved
-    </div>
+    <?php include_once("templates/footer.php"); ?>
 </body>
 </html>
