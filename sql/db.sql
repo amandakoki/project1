@@ -20,6 +20,9 @@ SET time_zone = "+00:00";
 --
 -- Database: `rkive`
 --
+DROP DATABASE IF EXISTS 'rkive';
+CREATE DATABASE IF NOT EXISTS 'rkive' DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE 'rkive';
 
 -- --------------------------------------------------------
 
@@ -54,6 +57,26 @@ ALTER TABLE `users`
 --
 ALTER TABLE `users`
   MODIFY `userId` bigint(10) NOT NULL AUTO_INCREMENT;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `genders`
+--
+
+DROP TABLE IF EXISTS `genders`;
+CREATE TABLE IF NOT EXISTS `genders` (
+  `genderId` tinyint(1) NOT NULL AUTO_INCREMENT,
+  `gender` varchar(30) DEFAULT NULL,
+  `datecreated` datetime DEFAULT current_timestamp(),
+  `dateupdated` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  PRIMARY KEY (`genderId`),
+  UNIQUE KEY `gender` (`gender`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
