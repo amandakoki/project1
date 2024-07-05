@@ -17,4 +17,5 @@ function addZero(z){
     if(z<10){
         z = "0";
     }
+    return z;
 }
