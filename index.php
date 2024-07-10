@@ -14,26 +14,8 @@
         
         <img src="images\pexels-library-img.jpg" alt="" width="30%">
 
-    <ul>
-        <li>HTML</li>
-        <li>Java</li>
-        <li>JavaScript</li>
-        <li>MySQL</li>
-        <li>PHP</li>
-    </ul>
-
-    <ol type="i" start="1">
-        <li>Black</li>
-        <li>Red</li>
-        <li>Yellow</li>
-        <li>Pink</li>
-        <li>White</li>
-    </ol>
-
-    <div class="side_bar">
-        <h3>Facilities</h3>
-    </div>
     <br>
+    <?php include_once ("templates/side_bar.php");?>
     <?php include_once("templates/footer.php"); ?>
     <br><br>
     </body>
