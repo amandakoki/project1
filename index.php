@@ -30,34 +30,6 @@
         <li>White</li>
     </ol>
 
-    <table border="1px" style="border: 1px solid color: #000; border-collapse{collapse:">
-        <tr>
-            <th colspan="2">Item Name</th>
-            <th>Quantity</th>
-            <th>Unit Price</th>
-            <th>Total Price</th>
-        </tr>
-        
-        <tr>
-            <td>1.</td>
-            <td>Book</td>
-            <td>2</td>
-            <td>ksh 300</td>
-            <td>600</td>
-        </tr>
-        <tr>
-            <td>2.</td>
-            <td>Pen</td>
-            <td>5</td>
-            <td>ksh 20</td>
-            <td>100</td>
-        </tr>
-        <tr>
-            <th colspan="4">Total</th>
-            <th>ksh 700</th>
-        </tr>
-    </table>
-
     <div class="side_bar">
         <h3>Facilities</h3>
     </div>
