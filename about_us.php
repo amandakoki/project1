@@ -1,6 +1,6 @@
-<?php include_once ("templates/heading.php"); ?>
-
-<?php include_once ("templates/nav.php"); ?>
+<?php 
+ include_once ("templates/heading.php"); 
+ require_once ("templates/nav.php"); ?>
 
     <div class="banner">
         <h1 style="font-style:inherit; color:#000000 ;">About Us</h1>
@@ -12,7 +12,7 @@
     <div class="row">
         <div class="content">
             <h1>About Us</h1>
-            <img src="images\bookswhand.jpg" height="300" alt="">
+            <img src="images\bookswhand.jpg" height="400" alt="">
             <p>The Rkive was founded with the purpose of easing worldwide access to books for people of all ages.</p>
 
             <ul>
