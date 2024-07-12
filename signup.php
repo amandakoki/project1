@@ -1,7 +1,34 @@
 <?php 
 include_once ("templates/heading.php");
-include_once ("templates/nav.php"); ?>
+require_once("includes/db_connect.php");
+include_once ("templates/nav.php"); 
 
+
+if(isset($_POST["signup"])){
+    $fn = mysqli_real_escape_string($conn, $_POST["fullname"]);
+    $mail = mysqli_real_escape_string($conn, $_POST["email_address"]);
+    $username = mysqli_real_escape_string($conn, $_POST["username"]);
+    $pass = mysqli_real_escape_string($conn, $_POST["passphrase"]);
+    $genderId = mysqli_real_escape_string($conn, $_POST["genderId"]);
+    $roleId = mysqli_real_escape_string($conn, $_POST["roleId"]);
+
+    
+if(!filter_var($mail, FILTER_VALIDATE_EMAIL)){
+    $_SESSION["wrong_email_format"] = "wrong email format";
+    $_SESSION["error"] = "";
+}
+
+if(!isset($_SESSION["error"])){
+        $insert_message = "INSERT INTO messages (sender_name, sender_email, subject_line, text_message) VALUES ('$fn', '$mail', '$subject', '$message')";
+
+        if ($conn->query($insert_message) === TRUE) {
+            header("Location: view_messages.php");
+            exit();
+        } else {
+            echo "Error: " . $insert_message . "<br>" . $conn->error;
+        }
+    }
+} ?>
     
     <div class="banner">
         <h1 style="font-style:inherit; color:black ;">Sign Up</h1>

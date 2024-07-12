@@ -3,7 +3,7 @@ session_start();
 
 $servername = "localhost";
 $username = "root";
-$password = "amanda";
+$password = "";
 $dbname = "rkive";
 
 // Create connection
@@ -14,5 +14,5 @@ if($conn->connect_error){
     die("Connection failed:" .$conn->connect_error);
 }
 else {
-    echo "Connected successfully";
+   // echo "Connected successfully";
 }
